@@ -7,10 +7,9 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:prettier/recommended",
-    "react-app",
     "react-app/jest",
     "airbnb",
+    "prettier",
   ],
   overrides: [],
   parserOptions: {
@@ -20,12 +19,15 @@ module.exports = {
   },
   plugins: ["react", "prettier"],
   rules: {
-    "no-shadow": "off",
-    "react/jsx-uses-react": ["off"],
-    "react/jsx-props-no-spreading": ["off"],
     "react/react-in-jsx-scope": "off",
-    quotes: ["warn", "double", { avoidEscape: true }],
     "no-unused-vars": "warn",
     "react/jsx-filename-extension": ["error", { extensions: [".jsx", ".js"] }],
+    "react/function-component-definition": [
+      "error",
+      {
+        namedComponents: "arrow-function",
+        unnamedComponents: "arrow-function",
+      },
+    ],
   },
 };
