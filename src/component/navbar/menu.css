@@ -1,11 +1,12 @@
 .Navbars {
-  background-color: #563cb1;
+  background-color: #ffffff;
   padding-bottom: 20px;
   position: absolute;
   width: 100%;
   transition: 0.2s ease-in-out;
+  z-index: 2;
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 1000px) {
   .Navbars {
     display: none;
   }
@@ -22,10 +23,9 @@
 
 .link {
   text-decoration: none;
-  /* color: white; */
 }
 .link:hover {
-  color: #e93a7d;
+  color: rgb(14, 38, 35);
   padding: 10px;
   border-radius: 20px;
   padding-left: 30px;
@@ -36,14 +36,18 @@
 }
 .linkbtn {
   text-decoration: none;
-  background-color: #e93a7d;
+  background-color: #2d7f73;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 8px;
   padding-left: 30px;
   padding-right: 30px;
 }
+.linkbtn {
+  color: rgb(14, 38, 35);
+}
+
 .linkbtn:hover {
-  background-color: #c43169;
+  background-color: #42857b;
 }
 
 .Navbutton {

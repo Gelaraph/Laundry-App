@@ -1,0 +1,124 @@
+.services-grid-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+  row-gap: 5em;
+  margin-left: 1em;
+  margin-right: 1em;
+  flex-wrap: wrap;
+}
+.services-grid {
+  display: grid;
+  place-items: center;
+  letter-spacing: 0.015em;
+  text-align: center;
+  width: 30%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.services-grid h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 0;
+  color: #333333;
+}
+.services-grid p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.services-grid-3 {
+  margin-top: -2em;
+}
+
+.services-grid img {
+  width: 330px;
+}
+.services-section {
+  background: #e4edf6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  gap: 2em;
+  justify-content: center;
+}
+.services-section-header,
+.client-review-section h2 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: #333333;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+}
+.client-review-section {
+  background: #f8fbff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 120px;
+  gap: 32px;
+}
+.client-review-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 2.5em;
+}
+.client-review-grid-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+}
+.client-review-grid {
+  width: 80%;
+}
+.client-review-grid p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.015em;
+  color: #333333;
+}
+.client-review-grid-name {
+  font-weight: 600;
+  color: #555555;
+}
+/* Media queries for responsive layout */
+@media screen and (max-width: 1080px) {
+  .services-grid {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 955px) {
+  .client-review-grid {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 832px) {
+  .client-review-section {
+    padding: 64px 60px;
+  }
+}
+@media screen and (max-width: 708px) {
+  .client-review-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .client-review-grid {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .services-grid {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1080px) {
+}

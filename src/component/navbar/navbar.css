@@ -39,7 +39,7 @@
 }
 .Link:hover {
   cursor: pointer;
-  color: #e93a7d;
+  color: rgb(14, 38, 35);
   border-radius: 20px;
   transition: 0.5ms;
 }
@@ -61,7 +61,7 @@
   letter-spacing: 0.015em;
   color: #2d7f73 !important;
 }
-@media screen and (max-width: 925px) {
+@media screen and (max-width: 1000px) {
   .Nav {
     padding: 25px 0px 25px 20px;
   }
