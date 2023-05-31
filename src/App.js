@@ -5,6 +5,7 @@ import "./App.css";
 import Menu from "./component/navbar/Menu";
 import Home from "./pages/Home";
 
+
 const App = () => {
   const [clicked, isClicked] = useState(false);
   return (
@@ -17,5 +18,12 @@ const App = () => {
     </div>
   );
 };
+
+const App = () => <div className="App">
+      <h1>
+      Laundry Website
+      </h1>
+</div>
+
 
 export default App;
