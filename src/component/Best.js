@@ -31,27 +31,27 @@ const Icons = styled.img`
 `
 const Best = () => (
   <BestContainer>
-        <h2>Why we are the best</h2>
+        <h2 className='text-center'>Why we are the best</h2>
         <div className='row mt-5'>
-            <div className='col-sm-4 col-md-6'>
+            <div className='row col-sm-5 col-md-6'>
                 <div className='d-flex justify-content-around '>
-                    <div className=''>
+                    <div className=' text-center'>
                         <Icons src={icon1} width={25.6} height={25.6} alt='' />
                         <TextContainer>Exceptional dry<br/> cleaning services</TextContainer>
                     </div>
-                    <div className=''>
+                    <div className=' text-center'>
                         <Icons src={icon2}  alt='' />
                         <TextContainer>Convenient booking<br/> and tracking options</TextContainer>
                     </div> 
                 </div>   
             </div>
-            <div className='col-sm-4 col-md-6'>
-                <div className='d-flex justify-content-around '>
-                    <div className=''>
+            <div className='col-sm-5 col-md-6 '>
+                <div className='d-flex justify-content-around mt-4 mt-md-0 '>
+                    <div className=' text-center'>
                         <Icons src={icon3} width={25.6} height={25.6} alt='' />
                         <TextContainer>Different methods for<br/> different clothes </TextContainer>
                     </div>
-                    <div className=''>
+                    <div className=' text-center '>
                         <Icons src={icon4} width={25.6} height={25.6} alt='' />
                         <TextContainer>Top-notch customer<br/> experience</TextContainer>
                     </div> 
