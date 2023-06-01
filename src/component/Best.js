@@ -32,9 +32,9 @@ const Icons = styled.img`
 const Best = () => (
   <BestContainer>
         <h2 className='text-center'>Why we are the best</h2>
-        <div className='row mt-5'>
-            <div className='row col-sm-5 col-md-6'>
-                <div className='d-flex justify-content-around '>
+        <div className='row mt-5 justify-content-around '>
+            <div className=' col-sm-5 col-md-6'>
+                <div className='d-flex justify-content-around mt-4 mt-md-0 '>
                     <div className=' text-center'>
                         <Icons src={icon1} width={25.6} height={25.6} alt='' />
                         <TextContainer>Exceptional dry<br/> cleaning services</TextContainer>
