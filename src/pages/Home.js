@@ -4,6 +4,8 @@ import Image1 from "../assets/cloths.png";
 import Image2 from "../assets/Rectangle 4.png";
 import Image3 from "../assets/Rectangle 5.png";
 import StarRating from "../component/StarRating";
+import Best from "../component/Best";
+
 
 const Home = () => (
   <div>
@@ -94,7 +96,8 @@ const Home = () => (
           </div>
         </div>
       </div>
-    </div>
+    </div> 
+    <Best />
   </div>
 );
 
