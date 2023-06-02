@@ -40,7 +40,7 @@ const Best = () => (
                         <TextContainer>Exceptional dry<br/> cleaning services</TextContainer>
                     </div>
                     <div className=' text-center'>
-                        <Icons src={icon2}  alt='' />
+                        <Icons src={icon2}  alt='Icon' />
                         <TextContainer>Convenient booking<br/> and tracking options</TextContainer>
                     </div> 
                 </div>   
@@ -48,11 +48,11 @@ const Best = () => (
             <div className='col-sm-5 col-md-6 '>
                 <div className='d-flex justify-content-around mt-4 mt-md-0 '>
                     <div className=' text-center'>
-                        <Icons src={icon3} width={25.6} height={25.6} alt='' />
+                        <Icons src={icon3} width={25.6} height={25.6} alt='An Icon' />
                         <TextContainer>Different methods for<br/> different clothes </TextContainer>
                     </div>
                     <div className=' text-center '>
-                        <Icons src={icon4} width={25.6} height={25.6} alt='' />
+                        <Icons src={icon4} width={25.6} height={25.6} alt='An Icon' />
                         <TextContainer>Top-notch customer<br/> experience</TextContainer>
                     </div> 
                 </div>   
