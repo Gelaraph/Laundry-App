@@ -24,6 +24,11 @@ Button.defaultProps = {
 };
 
 const ButtonStyle = styled.div`
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   button {
     cursor: pointer;
     outline: none;
@@ -31,7 +36,7 @@ const ButtonStyle = styled.div`
     width: 150px;
     height: 40px;
     border-radius: 8px;
-    border: 1px solid #2d7f73;
+    border: none;
     border-radius: 4px;
     background-color: transparent;
     font-weight: 600;
