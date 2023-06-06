@@ -21,13 +21,15 @@ const Input = ({
           </IconContext.Provider>
         </div>
       )}
-      <input
-        className="input-field"
-        type={type}
-        placeholder={placeholder}
-        value={value}
-        onChange={onChange}
-      />
+      <div className="input-field-div">
+        <input
+          className="input-field"
+          type={type}
+          placeholder={placeholder}
+          value={value}
+          onChange={onChange}
+        />
+      </div>
       {children}
     </div>
   );

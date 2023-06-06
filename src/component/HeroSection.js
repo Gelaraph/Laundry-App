@@ -50,6 +50,11 @@ const HeroStyle = styled.div`
     color: #f8fbff;
     padding-bottom: 5em;
   }
+  @media (max-width: 845px) {
+    .hero-section-content {
+      width: 90%;
+    }
+  }
   .hero-section-content-btn-div {
     display: flex;
     flex-direction: column;

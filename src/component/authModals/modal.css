@@ -75,13 +75,16 @@
 
 .input-field-wrapper {
   width: 100%;
+  align-items: center;
 }
 
 .icon {
-  padding: 18px;
   padding-left: 6px;
   padding-right: 7px;
+  padding-top: 3px;
   min-width: 40px;
+  margin-left: 1em;
+  margin-top: 0.3em;
   color: #999999;
   font-size: 20px;
 }
@@ -117,16 +120,6 @@
   color: #bbbbbb;
 }
 
-@media (max-width: 768px) {
-  .or-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .line {
-    width: 80%;
-  }
-}
 .sigin-agreement {
   width: 90%;
   margin: 0 auto;
@@ -161,4 +154,47 @@
   font-size: 12px;
   margin-top: 0.5em;
   text-align: start;
+}
+.input-field-div {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .or-container {
+    align-items: center;
+    width: 80%;
+  }
+
+  .line {
+    width: 80%;
+  }
+  .modal-container {
+    width: 70%;
+    padding: 1em;
+  }
+  .close-icon-div {
+    margin-bottom: 0.5em;
+  }
+  .signin-form > div {
+    margin-bottom: 1em;
+  }
+  .auth-btn {
+    height: 40px !important;
+    width: 80% !important;
+  }
+}
+@media (max-width: 555px) {
+  .modal-container {
+    width: 80%;
+  }
+  .signin-form {
+    width: 100%;
+  }
+}
+@media (max-width: 555px) {
+  .icon {
+    margin-left: 0.3em;
+  }
 }
