@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import { BsPerson } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
 import { RiLock2Line } from "react-icons/ri";
 import { ImGoogle } from "react-icons/im";
